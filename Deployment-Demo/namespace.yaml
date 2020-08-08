@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: deployment-demo
+  labels:
+    apps: web-based
+  annotations:
+    type: demo
+  
+## Use kubectl to create the namespace
+## kubectl apply -f namespace.yaml
+## To create the namespace imperatively:
+## kubectl create namespace deployment-demo
+
+  
